@@ -15,7 +15,7 @@ jobs:
     
     steps:
       - run: echo "${{ env.GITHUB_ACTIONS }}"
-      - run: echo "${{ github.action_repository }}
-      - run: echo "${{ github.head_ref }}
+      - run: echo "${{ github.action_repository }}"
+      - run: echo "${{ github.head_ref }}"
 
    
